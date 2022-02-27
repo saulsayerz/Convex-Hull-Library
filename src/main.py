@@ -100,6 +100,7 @@ while (not kelar) :
         plt.savefig("./test/"+namafile+".png")
         plt.clf()
     
+    # Opsi mengakhiri program atau tidak
     print()
     print("Apakah anda ingin solve Convex Hull dataset lain? ")
     selesai = input("Ketik y untuk iya atau n untuk tidak (defaultnya n): ")
