@@ -79,6 +79,7 @@ while (not kelar) :
     print()
     print("Berikut adalah grafik Convex Hull nya: ")
     print()
+    plt.legend()
     plt.show()
     
     #Opsi save dataset
@@ -97,6 +98,7 @@ while (not kelar) :
             kumpulansisi = mch.splitXY(hull)
             plt.plot(kumpulansisi[0], kumpulansisi[1], colors[i])
             plt.plot(kumpulansisi[2],kumpulansisi[3], colors[i])
+        plt.legend()
         plt.savefig("./test/"+namafile+".png")
         plt.clf()
     

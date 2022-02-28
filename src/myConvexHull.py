@@ -159,9 +159,3 @@ def splitXY(bucket):
     sumbuykanan.append(bucket[-1][1])
     hasilakhir = [sumbuxkiri,sumbuykiri,sumbuxkanan,sumbuykanan] # Untuk membungkus semua array menjadi satu array
     return hasilakhir
-
-
-
-    
-
-
